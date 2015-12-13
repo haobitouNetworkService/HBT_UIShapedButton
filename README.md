@@ -7,9 +7,12 @@ HBT_UIShapedButton can custom the shape of UIButton for iOS. You can use methods
 ##How to use
 There's a sample project in the Demo directory. Have fun!
 
-##Installation
-
 ###CocoaPods
+Just add this line to your podfile.
+
+```
+pod 'HBT_UIShapedButton', '1.0.0'
+```
 
 ##License
 HBT_UIShapedButton is released under an MIT license. See LICENSE for more information.
