@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6A5261D41C1D0EC300FA9F3D /* show.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A5261D31C1D0EC300FA9F3D /* show.png */; };
+		6A5261DA1C1D10CA00FA9F3D /* show.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A5261D91C1D10CA00FA9F3D /* show.png */; };
+		6A5261DE1C1D111100FA9F3D /* HBT_UIShapedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5261DD1C1D111100FA9F3D /* HBT_UIShapedButton.m */; };
 		6AF164901C1C50E5009CAE40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF1648F1C1C50E5009CAE40 /* main.m */; };
 		6AF164931C1C50E5009CAE40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF164921C1C50E5009CAE40 /* AppDelegate.m */; };
 		6AF164961C1C50E5009CAE40 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF164951C1C50E5009CAE40 /* ViewController.m */; };
@@ -15,7 +16,6 @@
 		6AF1649B1C1C50E5009CAE40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AF1649A1C1C50E5009CAE40 /* Assets.xcassets */; };
 		6AF1649E1C1C50E5009CAE40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AF1649C1C1C50E5009CAE40 /* LaunchScreen.storyboard */; };
 		6AF164A91C1C50E6009CAE40 /* HBT_UIShapedButtonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF164A81C1C50E6009CAE40 /* HBT_UIShapedButtonDemoUITests.m */; };
-		6AF164B61C1C65B4009CAE40 /* HBT_UIShapedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF164B51C1C65B4009CAE40 /* HBT_UIShapedButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6A5261D31C1D0EC300FA9F3D /* show.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = show.png; path = ../../../../show.png; sourceTree = "<group>"; };
+		6A5261D91C1D10CA00FA9F3D /* show.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = show.png; sourceTree = "<group>"; };
+		6A5261DC1C1D111100FA9F3D /* HBT_UIShapedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBT_UIShapedButton.h; sourceTree = "<group>"; };
+		6A5261DD1C1D111100FA9F3D /* HBT_UIShapedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBT_UIShapedButton.m; sourceTree = "<group>"; };
 		6AF1648B1C1C50E5009CAE40 /* HBT_UIShapedButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBT_UIShapedButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AF1648F1C1C50E5009CAE40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6AF164911C1C50E5009CAE40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,8 +45,6 @@
 		6AF164A41C1C50E6009CAE40 /* HBT_UIShapedButtonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HBT_UIShapedButtonDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AF164A81C1C50E6009CAE40 /* HBT_UIShapedButtonDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBT_UIShapedButtonDemoUITests.m; sourceTree = "<group>"; };
 		6AF164AA1C1C50E6009CAE40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6AF164B41C1C65B4009CAE40 /* HBT_UIShapedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBT_UIShapedButton.h; sourceTree = "<group>"; };
-		6AF164B51C1C65B4009CAE40 /* HBT_UIShapedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBT_UIShapedButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,12 +65,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6A5261D21C1D0E0900FA9F3D /* pic */ = {
+		6A5261D81C1D10CA00FA9F3D /* pic */ = {
 			isa = PBXGroup;
 			children = (
-				6A5261D31C1D0EC300FA9F3D /* show.png */,
+				6A5261D91C1D10CA00FA9F3D /* show.png */,
 			);
-			name = pic;
+			path = pic;
+			sourceTree = "<group>";
+		};
+		6A5261DB1C1D111100FA9F3D /* HBT_UIShapedButton */ = {
+			isa = PBXGroup;
+			children = (
+				6A5261DC1C1D111100FA9F3D /* HBT_UIShapedButton.h */,
+				6A5261DD1C1D111100FA9F3D /* HBT_UIShapedButton.m */,
+			);
+			path = HBT_UIShapedButton;
 			sourceTree = "<group>";
 		};
 		6AF164821C1C50E5009CAE40 = {
@@ -94,8 +103,8 @@
 		6AF1648D1C1C50E5009CAE40 /* HBT_UIShapedButtonDemo */ = {
 			isa = PBXGroup;
 			children = (
-				6A5261D21C1D0E0900FA9F3D /* pic */,
-				6AF164B31C1C6586009CAE40 /* HBT_UIShapedButton */,
+				6A5261DB1C1D111100FA9F3D /* HBT_UIShapedButton */,
+				6A5261D81C1D10CA00FA9F3D /* pic */,
 				6AF164911C1C50E5009CAE40 /* AppDelegate.h */,
 				6AF164921C1C50E5009CAE40 /* AppDelegate.m */,
 				6AF164941C1C50E5009CAE40 /* ViewController.h */,
@@ -124,15 +133,6 @@
 				6AF164AA1C1C50E6009CAE40 /* Info.plist */,
 			);
 			path = HBT_UIShapedButtonDemoUITests;
-			sourceTree = "<group>";
-		};
-		6AF164B31C1C6586009CAE40 /* HBT_UIShapedButton */ = {
-			isa = PBXGroup;
-			children = (
-				6AF164B41C1C65B4009CAE40 /* HBT_UIShapedButton.h */,
-				6AF164B51C1C65B4009CAE40 /* HBT_UIShapedButton.m */,
-			);
-			name = HBT_UIShapedButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,7 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A5261D41C1D0EC300FA9F3D /* show.png in Resources */,
+				6A5261DA1C1D10CA00FA9F3D /* show.png in Resources */,
 				6AF1649E1C1C50E5009CAE40 /* LaunchScreen.storyboard in Resources */,
 				6AF1649B1C1C50E5009CAE40 /* Assets.xcassets in Resources */,
 				6AF164991C1C50E5009CAE40 /* Main.storyboard in Resources */,
@@ -241,7 +241,7 @@
 				6AF164961C1C50E5009CAE40 /* ViewController.m in Sources */,
 				6AF164931C1C50E5009CAE40 /* AppDelegate.m in Sources */,
 				6AF164901C1C50E5009CAE40 /* main.m in Sources */,
-				6AF164B61C1C65B4009CAE40 /* HBT_UIShapedButton.m in Sources */,
+				6A5261DE1C1D111100FA9F3D /* HBT_UIShapedButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
