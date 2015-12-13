@@ -8,6 +8,7 @@ Pod::Spec.new do |s|
                    DESC
   s.homepage     = "https://github.com/haobitouNetworkService/HBT_UIShapedButton"
   s.authors      = { "hackjie" => "codelijie@gmail.com" }
+  s.social_media_url = "https://twitter.com/codelijie"
   s.platform     = :ios, "6.0"
   s.source       = { :git => "https://github.com/haobitouNetworkService/HBT_UIShapedButton.git", :tag => s.version.to_s }
   s.requires_arc = true
