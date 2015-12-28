@@ -30,20 +30,21 @@
 - (void)testWithFrame
 {
     HBT_UIShapedButton *rightOutArrowButton = ({
-        HBT_UIShapedButton *button = [[HBT_UIShapedButton alloc] initWithFrame:CGRectMake(100, 64, 100, 40)];
-        [button hbt_createRightOutArrowOfButtonWithWidth:100 height:40];
+        HBT_UIShapedButton *button = [[HBT_UIShapedButton alloc] initWithFrame:CGRectMake(20, 64, 150, 44)];
+//        [button hbt_createRightOutArrowOfButtonWithWidth:100 height:40];
         button.backgroundColor = [UIColor orangeColor];
         [self.view addSubview:button];
-        [button setTitle:@"Hello" forState:UIControlStateNormal];
+        [button setTitle:@"代办时间" forState:UIControlStateNormal];
         button;
     });
     
     HBT_UIShapedButton *leftInArrowButton = ({
-        HBT_UIShapedButton *button = [[HBT_UIShapedButton alloc] initWithFrame:CGRectMake(190, 64, 100, 40)];
-        [button hbt_createLeftInArrowOfButtonWithWidth:100 height:40];
+        HBT_UIShapedButton *button = [[HBT_UIShapedButton alloc] initWithFrame:CGRectMake(190, 64, 150, 44)];
+        button.shapeType = HBT_UIShapedButtonTypeInArrow;
+//        [button hbt_createLeftInArrowOfButtonWithWidth:100 height:40];
         button.backgroundColor = [UIColor orangeColor];
         [self.view addSubview:button];
-        [button setTitle:@"button" forState:UIControlStateNormal];
+        [button setTitle:@"2012-10-18\n12:24" forState:UIControlStateNormal];
         button;
     });
 }
