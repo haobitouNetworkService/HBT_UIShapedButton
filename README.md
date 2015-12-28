@@ -11,7 +11,7 @@ There's a sample project in the Demo directory. Have fun!
 Just add this line to your podfile.
 
 ```
-pod 'HBT_UIShapedButton', '1.0.0'
+pod 'HBT_UIShapedButton', '1.0.1'
 ```
 
 ##License
